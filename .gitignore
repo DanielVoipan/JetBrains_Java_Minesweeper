@@ -1,0 +1,25 @@
+# course config files
+*.yaml
+
+# gradle
+.gradle/
+gradle/
+gradlew
+*.bat
+build
+
+
+# idea confid
+.idea
+
+# old stages
+/Minesweeper/*
+!/Minesweeper/task/
+/Minesweeper/task/*
+!/Minesweeper/task/src/
+!/Minesweeper/task/build.gradle
+!/Minesweeper/task/build.gradle.kts
+
+# Project exclude paths
+/Topics/Processing strings/Double characters/out/
+/Topics/Processing strings/Double characters/out/production/classes/
